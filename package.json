@@ -1,0 +1,17 @@
+{
+  "name": "soloproject",
+  "version": "1.0.0",
+  "description": "Ready Meals: Is a service that provides healthy, and easy access to eat great every day",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Brandon Hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

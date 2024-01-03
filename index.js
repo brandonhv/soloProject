@@ -12,10 +12,7 @@ app.get('/', (req, res) => {
 
     // when we get the get reques, we will serve whe index.html file to our client inmedialty, to they can see the homepage
     // console.log('This is __dirname: ', __dirname);
-
     res.sendFile(path.join(__dirname, './index.html'));
-
-
 }
 );
 
