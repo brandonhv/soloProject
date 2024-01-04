@@ -1,6 +1,5 @@
 const path = require('path')
 const HtmlWebPackPlugin = require('html-webpack-plugin');
-// const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     entry: path.join(__dirname, "client", "index.js"),
@@ -12,7 +11,7 @@ module.exports = {
     module: {
         rules: [
           {
-            test: /\.?js$/,
+            test: /\.(js|jsx)$/,
             exclude: /node_modules/,
             use: {
               loader: "babel-loader",
