@@ -4,14 +4,26 @@
   "description": "Ready Meals: Is a service that provides healthy, and easy access to eat great every day",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server/server.js",
+    "build": "webpack",
+    "dev": "webpack serve --open"
   },
   "author": "Brandon Hernandez",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack": "^5.89.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.2"
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.7",
+    "@babel/preset-react": "^7.23.3",
+    "babel-loader": "^9.1.3",
+    "html-webpack-plugin": "^5.6.0",
+    "nodemon": "^3.0.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   }
 }
