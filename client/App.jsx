@@ -1,11 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Child from './Child.jsx';
+import style from './style.css';
 
 function App() {
-    return (
-     <div>
-        <h1> This is send from the server!! </h1>
-     </div>   
-    )
+    
+    return < Child/>
 };
 
 export default App;
